@@ -3,110 +3,706 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thuso Masiteng | Virtual CV</title>
+
+    <meta name="description"
+          content="Thuso Masiteng — Cybersecurity and Information Technology specialist focused on secure systems, networking, software and security research.">
+
+    <meta name="theme-color" content="#080b10">
+
+    <title>Thuso Masiteng | Cybersecurity & IT</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <!-- NAVIGATION SECTION -->
-    <nav id="navbar">
-        <div class="logo">TM.</div>
-        <ul class="nav-links">
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#resume">Resume / CV</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="burger" id="burger-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
+<!-- ================= NAVIGATION ================= -->
+
+<header class="navbar">
+
+    <a href="#home" class="logo">
+        <span class="logo-bracket">[</span>TM<span class="logo-bracket">]</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#projects">Projects</a>
+        <a href="#journey">Journey</a>
+        <a href="#contact" class="nav-cta">Let's Talk <span>↗</span></a>
     </nav>
 
-    <!-- HERO / ABOUT ME SECTION -->
-    <section id="about" class="section">
-        <div class="container fade-in">
-            <h1>Hi, I'm Thuso Itumeleng Masiteng</h1>
-            <h2>BSc IT Final-Year Student | Aspiring Cybersecurity Specialist</h2>
-            <p>I am a final-year Information Technology student at North-West University specializing in Cybersecurity and Systems Analysis. I combine strong algorithmic logic with a deep passion for ethical hacking and secure digital infrastructure.</p>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+</header>
+
+
+<main>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-grid"></div>
+
+    <div class="container hero-content">
+
+        <div class="status">
+            <span class="status-dot"></span>
+            <span>Available for opportunities</span>
         </div>
-    </section>
 
-    <!-- RESUME / CV SECTION -->
-    <section id="resume" class="section bg-light">
-        <div class="container">
-            <h2 class="section-title">Resume & Academic Background</h2>
-            
-            <div class="resume-item">
-                <h3>Bachelor of Science in Information Technology</h3>
-                <p><strong>North-West University (NWU)</strong> | Expected Graduation: Nov 2026</p>
-                <ul>
-                    <li>Notable Achievement: Elite-tier 90% distinction in programming fundamentals.</li>
-                    <li>Key Coursework: Information Security, Decision Support Systems, Operating Systems.</li>
-                </ul>
-            </div>
+        <p class="eyebrow">CYBERSECURITY • INFORMATION TECHNOLOGY</p>
 
-            <div class="resume-item">
-                <h3>Independent Cybersecurity Researcher</h3>
-                <p><strong>TryHackMe & Hack The Box</strong> | Present</p>
-                <ul>
-                    <li>Engaged in practical penetration testing and ethical hacking simulations.</li>
-                    <li>Developing proficiency in network protocol analysis and vulnerability scanning.</li>
-                </ul>
-            </div>
+        <h1>
+            Securing systems.<br>
+            <span>Building what's next.</span>
+        </h1>
+
+        <p class="hero-description">
+            I'm <strong>Thuso Masiteng</strong>, an Information Technology
+            student specializing in cybersecurity, systems analysis and
+            software development.
+        </p>
+
+        <div class="hero-actions">
+
+            <a href="#projects" class="btn btn-primary">
+                Explore my work
+                <span>↗</span>
+            </a>
+
+            <a href="#contact" class="btn btn-secondary">
+                Work with me
+            </a>
+
         </div>
-    </section>
 
-    <!-- SKILLS SECTION -->
-    <section id="skills" class="section">
-        <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <h3>Security & Networking</h3>
-                    <p>Information Security, TCP/IP, DNS, Firewalls</p>
-                </div>
-                <div class="skill-card">
-                    <h3>Programming</h3>
-                    <p>Python, C++, Java, Object-Oriented Logic</p>
-                </div>
-                <div class="skill-card">
-                    <h3>Systems & Data</h3>
-                    <p>SQL, Systems Analysis (SDLC), Linux (Ubuntu/Kali)</p>
-                </div>
+        <div class="hero-proof">
+
+            <div>
+                <strong>BSc IT</strong>
+                <span>North-West University</span>
             </div>
+
+            <div>
+                <strong>Cybersecurity</strong>
+                <span>Focused specialization</span>
+            </div>
+
+            <div>
+                <strong>2026</strong>
+                <span>Expected graduation</span>
+            </div>
+
         </div>
-    </section>
 
-    <!-- PROJECTS SECTION -->
-    <section id="projects" class="section bg-light">
-        <div class="container">
-            <h2 class="section-title">Projects</h2>
-            <div class="project-card">
-                <h3>Full-Stack Web Application</h3>
-                <p>A collaborative academic group project demonstrating secure database architecture and dynamic front-end design.</p>
-                <a href="https://github.com/Ariixyyn2004/Conference-Management-Tool-Full-Stack-Development-Project-CMPG323" target="_blank" class="btn">View on GitHub</a>
+    </div>
+
+    <div class="scroll-indicator">
+        <span>SCROLL TO EXPLORE</span>
+        <div class="scroll-line"></div>
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="section about-section" id="about">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <p class="eyebrow">01 / ABOUT</p>
+            <h2>Technology is only powerful<br>when it's <span>secure.</span></h2>
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-main">
+
+                <p class="lead">
+                    I’m an Information Technology professional in training
+                    with a strong interest in cybersecurity, secure systems
+                    and practical problem solving.
+                </p>
+
+                <p>
+                    My background combines programming, systems analysis,
+                    databases, operating systems and networking with a
+                    growing focus on ethical hacking and security research.
+                </p>
+
+                <p>
+                    I enjoy understanding how systems work, identifying
+                    weaknesses and thinking about how technology can be
+                    designed more securely from the beginning.
+                </p>
+
+                <div class="about-signature">
+                    <span>THUSO MASITENG</span>
+                    <span class="signature-line"></span>
+                    <small>Cybersecurity & IT</small>
+                </div>
+
             </div>
-            <div class="project-card">
+
+
+            <div class="terminal-card">
+
+                <div class="terminal-header">
+                    <div class="terminal-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <span>thuso@security:~</span>
+                </div>
+
+                <div class="terminal-body">
+
+                    <p>
+                        <span class="terminal-green">$</span>
+                        whoami
+                    </p>
+
+                    <p class="terminal-output">
+                        Thuso Masiteng
+                    </p>
+
+                    <p>
+                        <span class="terminal-green">$</span>
+                        focus --current
+                    </p>
+
+                    <p class="terminal-output">
+                        Cybersecurity<br>
+                        Systems Analysis<br>
+                        Secure Development
+                    </p>
+
+                    <p>
+                        <span class="terminal-green">$</span>
+                        status
+                    </p>
+
+                    <p class="terminal-output success">
+                        Open to opportunities_
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EXPERTISE ================= -->
+
+<section class="section expertise-section" id="expertise">
+
+    <div class="container">
+
+        <div class="section-heading split-heading">
+
+            <div>
+                <p class="eyebrow">02 / EXPERTISE</p>
+
+                <h2>
+                    Technical skills with a
+                    <span>security mindset.</span>
+                </h2>
+            </div>
+
+            <p>
+                My skill set sits at the intersection of cybersecurity,
+                software development and information systems.
+            </p>
+
+        </div>
+
+
+        <div class="expertise-grid">
+
+            <article class="expertise-card">
+
+                <span class="card-number">01</span>
+
+                <div class="card-icon">◈</div>
+
+                <h3>Cybersecurity</h3>
+
+                <p>
+                    Security fundamentals, ethical hacking concepts,
+                    vulnerability analysis and security-focused research.
+                </p>
+
+                <div class="tags">
+                    <span>Ethical Hacking</span>
+                    <span>Security</span>
+                    <span>Vulnerability Analysis</span>
+                </div>
+
+            </article>
+
+
+            <article class="expertise-card">
+
+                <span class="card-number">02</span>
+
+                <div class="card-icon">⌁</div>
+
+                <h3>Networking</h3>
+
+                <p>
+                    Understanding of network architecture, communication
+                    protocols and the foundations of secure infrastructure.
+                </p>
+
+                <div class="tags">
+                    <span>TCP/IP</span>
+                    <span>DNS</span>
+                    <span>Firewalls</span>
+                </div>
+
+            </article>
+
+
+            <article class="expertise-card">
+
+                <span class="card-number">03</span>
+
+                <div class="card-icon">{ }</div>
+
+                <h3>Development</h3>
+
+                <p>
+                    Building software with structured logic and an emphasis
+                    on maintainability, databases and secure design.
+                </p>
+
+                <div class="tags">
+                    <span>Python</span>
+                    <span>Java</span>
+                    <span>C++</span>
+                    <span>SQL</span>
+                </div>
+
+            </article>
+
+
+            <article class="expertise-card">
+
+                <span class="card-number">04</span>
+
+                <div class="card-icon">▣</div>
+
+                <h3>Systems Analysis</h3>
+
+                <p>
+                    Translating requirements into structured systems through
+                    analysis, design and software development methodologies.
+                </p>
+
+                <div class="tags">
+                    <span>SDLC</span>
+                    <span>Systems Analysis</span>
+                    <span>Linux</span>
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section class="section projects-section" id="projects">
+
+    <div class="container">
+
+        <div class="section-heading split-heading">
+
+            <div>
+                <p class="eyebrow">03 / SELECTED WORK</p>
+
+                <h2>
+                    Projects that show how
+                    <span>I think.</span>
+                </h2>
+            </div>
+
+            <p>
+                A selection of academic and technical work demonstrating
+                software development, systems thinking and practical
+                problem-solving.
+            </p>
+
+        </div>
+
+
+        <!-- PROJECT 1 -->
+
+        <article class="project-feature">
+
+            <div class="project-visual conference">
+
+                <div class="project-window">
+
+                    <div class="window-bar">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="dashboard-preview">
+
+                        <div class="preview-sidebar"></div>
+
+                        <div class="preview-content">
+
+                            <div class="preview-line large"></div>
+                            <div class="preview-line"></div>
+
+                            <div class="preview-cards">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+
+                            <div class="preview-table"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="project-label">
+                    FULL-STACK / WEB APPLICATION
+                </div>
+
+            </div>
+
+
+            <div class="project-info">
+
+                <p class="project-index">PROJECT / 01</p>
+
+                <h3>Conference Management Tool</h3>
+
+                <p>
+                    A collaborative full-stack web application focused on
+                    structured application architecture, database
+                    integration and dynamic front-end functionality.
+                </p>
+
+                <div class="project-stack">
+                    <span>Full-Stack</span>
+                    <span>Database</span>
+                    <span>Web Development</span>
+                    <span>Systems Design</span>
+                </div>
+
+                <a
+                    href="https://github.com/Ariixyyn2004/Conference-Management-Tool-Full-Stack-Development-Project-CMPG323"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                >
+                    View project
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 2 -->
+
+        <article class="project-feature reverse">
+
+            <div class="project-visual insurance">
+
+                <div class="architecture">
+
+                    <div class="architecture-node main-node">
+                        Insurance
+                        <small>Management System</small>
+                    </div>
+
+                    <div class="architecture-line line-a"></div>
+                    <div class="architecture-line line-b"></div>
+                    <div class="architecture-line line-c"></div>
+
+                    <div class="architecture-node node-a">
+                        Users
+                    </div>
+
+                    <div class="architecture-node node-b">
+                        Data
+                    </div>
+
+                    <div class="architecture-node node-c">
+                        System
+                    </div>
+
+                </div>
+
+                <div class="project-label">
+                    SYSTEM DESIGN / SOFTWARE
+                </div>
+
+            </div>
+
+
+            <div class="project-info">
+
+                <p class="project-index">PROJECT / 02</p>
+
                 <h3>Rosemary Insurance Management System</h3>
-                <p>A collaborative software development group project (Group 21) focusing on structured system design and practical application architecture.</p>
-                <a href="https://github.com/tea-eye-mars/RosemaryInsurance_Group21" target="_blank" class="btn">View on GitHub</a>
+
+                <p>
+                    A collaborative software development project focused on
+                    structured system design, application architecture and
+                    translating business requirements into a practical
+                    software solution.
+                </p>
+
+                <div class="project-stack">
+                    <span>Software Design</span>
+                    <span>Systems Analysis</span>
+                    <span>Application Architecture</span>
+                </div>
+
+                <a
+                    href="https://github.com/tea-eye-mars/RosemaryInsurance_Group21"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                >
+                    View project
+                    <span>↗</span>
+                </a>
+
             </div>
-        </div>
-    </section>
 
-    <!-- CONTACT INFORMATION SECTION -->
-    <section id="contact" class="section">
-        <div class="container">
-            <h2 class="section-title">Contact Information</h2>
-            <p>Email: <a href="mailto:masitengthuso7@gmail.com">masitengthuso7@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/thuso-mas" target="_blank">linkedin.com/in/thuso-mas</a></p>
-            <p>GitHub: <a href="https://github.com/tea-eye-mars" target="_blank">github.com/tea-eye-mars</a></p>
-        </div>
-    </section>
+        </article>
 
-    <script src="script.js"></script>
+    </div>
+
+</section>
+
+
+<!-- ================= JOURNEY ================= -->
+
+<section class="section journey-section" id="journey">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <p class="eyebrow">04 / EXPERIENCE</p>
+            <h2>Building the foundation<br>for a career in <span>security.</span></h2>
+        </div>
+
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-marker">
+                    01
+                </div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">CURRENT</span>
+
+                    <h3>BSc Information Technology</h3>
+
+                    <h4>North-West University</h4>
+
+                    <p>
+                        Final-year Information Technology student with
+                        coursework spanning information security, operating
+                        systems, decision support systems and programming.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-marker">
+                    02
+                </div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">ONGOING</span>
+
+                    <h3>Cybersecurity Research & Practice</h3>
+
+                    <h4>TryHackMe / Hack The Box</h4>
+
+                    <p>
+                        Developing practical cybersecurity knowledge through
+                        ethical hacking environments, security challenges,
+                        networking and vulnerability-focused exercises.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-marker">
+                    03
+                </div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">2026</span>
+
+                    <h3>Professional Development</h3>
+
+                    <h4>Cybersecurity & Secure Technology</h4>
+
+                    <p>
+                        Continuing to build practical experience across
+                        cybersecurity, software development and secure
+                        information systems.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CTA ================= -->
+
+<section class="cta-section" id="contact">
+
+    <div class="cta-grid"></div>
+
+    <div class="container">
+
+        <div class="cta-content">
+
+            <p class="eyebrow">05 / CONTACT</p>
+
+            <h2>
+                Have a security challenge<br>
+                <span>worth solving?</span>
+            </h2>
+
+            <p>
+                Whether you're looking for technical talent, a developer
+                with a security mindset, or someone eager to contribute
+                to a cybersecurity project, let's start a conversation.
+            </p>
+
+            <a
+                href="mailto:masitengthuso7@gmail.com?subject=Cybersecurity%20Opportunity"
+                class="btn btn-primary btn-large"
+            >
+                Start a conversation
+                <span>↗</span>
+            </a>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+            <a
+                href="mailto:masitengthuso7@gmail.com"
+                class="contact-item"
+            >
+                <span class="contact-label">EMAIL</span>
+                <strong>masitengthuso7@gmail.com</strong>
+                <span class="contact-arrow">↗</span>
+            </a>
+
+
+            <a
+                href="https://www.linkedin.com/in/thuso-mas"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-item"
+            >
+                <span class="contact-label">LINKEDIN</span>
+                <strong>/in/thuso-mas</strong>
+                <span class="contact-arrow">↗</span>
+            </a>
+
+
+            <a
+                href="https://github.com/tea-eye-mars"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-item"
+            >
+                <span class="contact-label">GITHUB</span>
+                <strong>/tea-eye-mars</strong>
+                <span class="contact-arrow">↗</span>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container footer-content">
+
+        <div>
+            <span class="footer-logo">[TM]</span>
+            <p>Cybersecurity & Information Technology</p>
+        </div>
+
+        <p>
+            © 2026 Thuso Masiteng. Built with intention.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
 </body>
 </html>
